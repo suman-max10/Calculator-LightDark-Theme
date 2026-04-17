@@ -14,6 +14,7 @@ for (var i = 0; i < keys.length; i++) {
     } else if (btnVal == "=") {
       var equation = inputVal;
       var lastChar = equation[equation.length - 1];
+      // for multiply
 
       equation = equation.replace(/x/g, "*").replace(/÷/g, "/");
 
