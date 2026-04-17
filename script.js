@@ -49,7 +49,7 @@ for (var i = 0; i < keys.length; i++) {
     e.preventDefault();
   };
 }
-
+// dark light toggle
 const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
 );
