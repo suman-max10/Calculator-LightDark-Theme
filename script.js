@@ -1,7 +1,7 @@
 var keys = document.querySelectorAll("#calc span");
 var operators = ["+", "-", "x", "÷"];
 var decimalAdded = false;
-
+// comments
 for (var i = 0; i < keys.length; i++) {
   keys[i].onclick = function (e) {
     var input = document.querySelector(".display");
