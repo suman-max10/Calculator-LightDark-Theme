@@ -1,3 +1,5 @@
+// calculator code
+
 var keys = document.querySelectorAll("#calc span");
 var operators = ["+", "-", "x", "÷"];
 var decimalAdded = false;
