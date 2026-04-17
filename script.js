@@ -53,7 +53,7 @@ for (var i = 0; i < keys.length; i++) {
 const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
 );
-
+// theam change
 function switchTheme(e) {
   if (e.target.checked) {
     document.documentElement.setAttribute("data-theme", "dark");
